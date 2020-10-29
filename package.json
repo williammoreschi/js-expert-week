@@ -1,0 +1,23 @@
+{
+  "name": "js-expert-week",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8080 public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williammoreschi/js-expert-week.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williammoreschi/js-expert-week/issues"
+  },
+  "homepage": "https://github.com/williammoreschi/js-expert-week#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
