@@ -7,9 +7,10 @@
 <img  alt="License"  src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
+<img  alt="JS Expert"  src="./assets/js-expert.gif"  width="800px">
+
 ### Objetivo
-- É Desenvolver uma aplicação e mostrar como a Netflix desenvolveu o filme **Black Mirror: Bandersnatch**;
-- Servir o vídeo na resolução adquada para internet do usuário;
+- Criar uma aplicação e mostrar como a Netflix desenvolveu o filme **Black Mirror: Bandersnatch**;
 
 ### Pré-requisitos
 - [Docker](https://www.docker.com/get-started)
@@ -48,6 +49,25 @@ $ sh script.sh
 ```
 
 🕐 pode ser que demore um pouco, depende do seu ambiente. Verifique as pastas que vão sendo criadas em *assets/timeline*.
+
+Depois dos vídeos criados, instalar as dependencias necessárias para que funcione a aplicação
+```bash
+
+$  npm install
+
+```
+
+Tenha dois terminais aberto dentro do VSCode.
+
+```bash
+#o comando vai levantar o servidor para sistema web
+$  npm run dev
+
+#o comando vai levantar o sevidor para enviar os servir os vídeos na aplicação
+$  npm run assets
+```
+
+Acesse [localhost:8080](http://localhost:8080/)
 
 ### Créditos
 - Base desse projeto feito pelo [Pedro Renan](https://github.com/pedrorenan) o projeto [js-expert-week](https://github.com/pedrorenan/js-expert-week). 
